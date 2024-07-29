@@ -12,9 +12,6 @@ project "ImGui"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
-	pchheader "pch.h"
-	pchsource "Src/pch.cpp"
-
 	files
 	{
 		"imconfig.h",
