@@ -1,4 +1,5 @@
 project "ImGui"
+	toolset "v143"
 	kind "StaticLib"
 	language "C++"
     staticruntime "off"
