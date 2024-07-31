@@ -4,10 +4,6 @@ project "ImGui"
 	language "C++"
     staticruntime "off"
 
-<<<<<<< HEAD
-	targetdir ("bin" .. outputdir .. "%{prj.name}")
-	objdir ("bin-int" .. outputdir .. "%{prj.name}")
-=======
 	flags
 	{
 		"MultiProcessorCompile"
@@ -15,7 +11,6 @@ project "ImGui"
 
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
->>>>>>> 5bd5f9170c4f78618e7c33708d096d8a4f71ffc9
 
 	files
 	{
@@ -36,14 +31,11 @@ project "ImGui"
 		systemversion "latest"
 		cppdialect "C++17"
 
-<<<<<<< HEAD
 	filter "system:linux"
 		pic "On"
 		systemversion "latest"
 		cppdialect "C++17"
 
-=======
->>>>>>> 5bd5f9170c4f78618e7c33708d096d8a4f71ffc9
 	filter "configurations:Debug"
 		runtime "Debug"
 		symbols "on"
